@@ -13,9 +13,12 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "^11.1.1",
+      "version": "11.1.1",
       "onFail": "download"
     }
+  },
+  "dependencies": {
+    "chalk": "^5.6.2",
+    "cowsay": "^1.6.0"
   }
- 
 }
