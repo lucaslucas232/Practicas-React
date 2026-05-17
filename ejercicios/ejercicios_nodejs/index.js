@@ -46,7 +46,7 @@ const shortName = uniqueNamesGenerator({
 });
 console.log(i + '. ' + shortName);
     }
-console.log(shortName)
+
   } catch (error) {
     console.error('error', error.message);
   }
